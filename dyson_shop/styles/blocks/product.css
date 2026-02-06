@@ -1,0 +1,9 @@
+.product{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.product__photo{
+    height: 550px;
+    width: 550px;
+}
