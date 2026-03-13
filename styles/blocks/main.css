@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+}
+
+.main__background{
+    position: absolute;
+    z-index: -1;
+    height: 1920px;
+    width: 100%;
+}
+
+.product__item{
+   display: grid;
+   grid-template-columns: repeat(2, 550px);
+   position: relative;
+   margin-top: 187px;
+   margin-inline: 20%;
+}
+
+.product__photo{
+    height: 550px;
+    width: 550px;
+}
+
+.product__name{
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.product__desc{
+
+}
