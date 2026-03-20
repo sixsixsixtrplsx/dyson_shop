@@ -1,0 +1,30 @@
+.about{
+    display: flex;
+    margin-left: 280px;
+    margin-right: 250px;
+    
+}
+
+.about__image{
+   position: relative;
+   width:auto;
+}
+
+.about__content{
+    margin-right: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+.about__subtitle{
+    font-size:42px;
+
+}
+
+.about__text{
+    width: 423px;
+}
