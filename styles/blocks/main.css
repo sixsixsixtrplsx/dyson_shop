@@ -1,32 +1,33 @@
 .main{
     display: flex;
+    height: 850px;
+    width: 1920px;
+    padding-left: 280px;
+    padding-right: 280px;
+    background-color: #DDDDDD;
+    align-items: center;
 }
 
-.main__background{
-    position: absolute;
-    z-index: -1;
-    height: 1920px;
-    width: 100%;
-}
-
-.product__item{
-   display: grid;
-   grid-template-columns: repeat(2, 550px);
+.main__image{
    position: relative;
-   margin-top: 187px;
-   margin-inline: 20%;
+   width:auto;
 }
 
-.product__photo{
-    height: 550px;
-    width: 550px;
+.main__header{
+    position: relative;
+}
+
+.main__button{
+    height:64px;
+    width:235px;
 }
 
 .product__name{
     font-size: 38px;
     margin-bottom: 40px;
-}
-
-.product__desc{
-
+    display: grid;
+    grid-template-columns: repeat(2, 550px);
+    position: relative;
+    margin-top: 187px;
+    margin-inline: 20%;
 }

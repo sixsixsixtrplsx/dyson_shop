@@ -1,0 +1,19 @@
+.product{
+    display: grid;
+   grid-template-columns: repeat(4, 325px);
+   gap: 20px;
+   margin-left:280px;
+   margin-right: 280px;
+   margin-top: 150px;
+   margin-bottom: 150px;
+}
+
+.product__image{
+    height:325px;
+    width:325px;
+    box-shadow: 0 0 10px 10px  rgba(126, 126, 126, 0.1);
+}
+
+.product__card{
+    background-color: white;
+}
