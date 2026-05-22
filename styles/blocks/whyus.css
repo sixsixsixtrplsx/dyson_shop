@@ -1,0 +1,35 @@
+.whyus{
+    margin-left:280px;
+    margin-right: 280px;
+}
+
+.whyus__icons{
+
+}
+
+.whyus__features{
+    display: grid;
+    grid-template-columns: repeat(3, 440px);
+    gap: 20px;
+    place-items: center;
+    align-self:center;
+}
+
+.whyus__card{
+    text-align: center;
+    height: 280px;
+    box-shadow: 0 0 10px 10px  rgba(126, 126, 126, 0.1);
+    margin: auto;
+}
+
+.whyus__subtitle{
+    padding-left: 105px;
+    padding-right: 104px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.whyus__text{
+    padding-left: 112px;
+    padding-right: 117px;
+}
