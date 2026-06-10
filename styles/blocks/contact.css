@@ -1,0 +1,47 @@
+.contact{
+    margin-left: 280px;
+    margin-right: 395px;
+    margin-bottom: 114px;
+}
+
+.contact__content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 135px;
+}
+
+.contact__title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.contact__button{
+    background-color: #111111;
+    color: white;
+    font-size: 24px;
+    width: 277px;
+    height: 64px;
+}
+
+.contact__form-input{
+    margin-bottom: 40px;
+    width: 555px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.contact__form-email{
+    margin-bottom: 70px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.contact__checkbox{
+    margin-top: 35px;
+    font-size: 16px;
+    accent-color: #C5358C;
+    height: 30px;
+    width: 30px;
+}
