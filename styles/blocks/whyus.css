@@ -4,7 +4,15 @@
 }
 
 .whyus__icons{
+    margin-top: 26px;
+    padding-top: 18px;
+    padding-left: 19px;
+    padding-right: 11px;
+    padding-bottom: 12px;
+}
 
+.whyus__title{
+    font-size: 42px;
 }
 
 .whyus__features{

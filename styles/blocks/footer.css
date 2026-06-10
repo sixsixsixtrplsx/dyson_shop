@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    padding-left: 279px;
+    padding-right: 396px;
+    
+}
+
+.footer__logo{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.footer__text{
+    color: white;
+    display: grid;
+    grid-template-columns: 237px 269px 243px 210px;
+    gap: 100px;
+}
+
+.footer__social{
+    margin-top: 25px;
+}
